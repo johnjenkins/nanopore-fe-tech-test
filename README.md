@@ -23,7 +23,7 @@ The first feature which you should deliver is a Customer / Account page:
 
 - As a Nanopore Customer, I am a member of one or more Accounts.
 - As an Account 'member' I can view other members within my Account.
-- As an Account 'admin', I can view and edit other members within my Account, but not Account 'leaders'.
+- As an Account 'admin', I can view all other members and edit non Account 'leaders'.
 - As an Account 'leader' I can view, edit, delete and invite new members to my Account.
 - I want to be able to swap between my various Account views.
 
