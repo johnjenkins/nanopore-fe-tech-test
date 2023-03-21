@@ -1,0 +1,84 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "organisation_name": "Acme Inc.",
+      "address_line_1": "123 Main St.",
+      "address_line_2": "",
+      "region": "California",
+      "country": "USA",
+      "duns_number": "123456789",
+      "create_date": "2022-01-01",
+      "account_roles": [
+        {
+          "id": 1,
+          "role": "admin"
+        },
+        {
+          "id": 3,
+          "role": "member"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "organisation_name": "Globex Corporation",
+      "address_line_1": "456 Elm St.",
+      "address_line_2": "",
+      "region": "New York",
+      "country": "USA",
+      "duns_number": "987654321",
+      "create_date": "2022-02-01",
+      "account_roles": [
+        {
+          "id": 2,
+          "role": "member"
+        },
+        {
+          "id": 4,
+          "role": "leader"
+        },
+        {
+          "id": 7,
+          "role": "admin"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "organisation_name": "Hooli",
+      "address_line_1": "789 Maple Ave.",
+      "address_line_2": "Suite 500",
+      "region": "California",
+      "country": "USA",
+      "duns_number": "2468101214",
+      "create_date": "2022-03-01",
+      "account_roles": [
+        {
+          "id": 3,
+          "role": "leader"
+        },
+        {
+          "id": 5,
+          "role": "member"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "organisation_name": "Initech",
+      "address_line_1": "321 Oak St.",
+      "address_line_2": "",
+      "region": "Texas",
+      "country": "USA",
+      "duns_number": "121212121",
+      "create_date": "2022-03-15",
+      "account_roles": [
+        {
+          "id": 6,
+          "role": "member"
+        }
+      ]
+    }
+  ]
+}
