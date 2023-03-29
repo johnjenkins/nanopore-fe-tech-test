@@ -1,0 +1,43 @@
+# This is a GitHub Actions workflow file that defines a CI (Continuous Integration) workflow for a Node.js project.
+
+# Define the name of the workflow as "Node.js CI"
+name: Node.js CI
+
+# Define that this workflow will run on pull request events.
+on:
+  pull_request:
+
+# Define a set of jobs to be run in the workflow.
+jobs:
+  # Define a job named "build".
+  build:
+    # Define the operating system to run the job on.
+    runs-on: ubuntu-latest
+
+    # Define a set of steps to be executed in the job.
+    steps:
+      # Checkout the source code from the repository.
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set up the Node.js environment using the "setup-node" action.
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15.x
+
+      # Install the project's dependencies using Yarn.
+      - name: Install dependencies
+        run: yarn install
+
+      # Run the project's linter using Yarn.
+      - name: Lint code
+        run: yarn lint
+
+      # Run the project's tests using Yarn.
+      - name: Test code
+        run: yarn test
+
+      # Build the project using Yarn.
+      - name: Build code
+        run: yarn build

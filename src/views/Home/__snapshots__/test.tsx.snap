@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render the heading 1`] = `
+.c3 {
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.c4 {
+  background-color: transparent;
+  color: white;
+  border: 0.125rem solid #90c6e7;
+  border-radius: 0.25rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s,color 0.5s;
+  transition: background-color 0.25s,color 0.5s;
+}
+
+.c4:hover,
+.c4:focus {
+  background-color: #90c6e7;
+  color: #045a72;
+}
+
+.c0 {
+  width: 18.75rem;
+}
+
+.c1 {
+  color: #90c6e7;
+  font-size: 2rem;
+}
+
+.c2 {
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: 400;
+  width: min(45rem,80%);
+}
+
+<div>
+  <a
+    href="/"
+  >
+    <img
+      alt="Oxford nanopore Tech logo"
+      class="c0"
+      src="/img/ont-logo.svg"
+    />
+  </a>
+  <h1
+    class="c1"
+  >
+    An Oxford Nanopore Frontend Technical Test
+  </h1>
+  <h2
+    class="c2"
+  >
+    As part of our application process, we'd like you to demonstrate your talents with a small assignment. The task is useful for us to get an idea of your problem solving, organisation, eye-for-detail and overall thought processes. Please do not spend more than a few hours on it - we do not expect candidates to 'finish'; just get as far as you can.
+  </h2>
+  <a
+    class="c3"
+    href="/my-account"
+  >
+    <button
+      class="c4"
+    >
+      Customers & Accounts
+    </button>
+  </a>
+</div>
+`;
