@@ -50,7 +50,9 @@ const MyAccount: React.FC = () => {
   const [currentAccount, setCurrentAccount] = React.useState<Account | null>(
     null
   )
-  const [currentUser, setCurrentUser] = React.useState<Customer>({
+
+  // Default values for current user
+  const [currentUser] = React.useState<Customer>({
     id: 0,
     first_name: 'Jan',
     last_name: 'Sargsyan',
@@ -80,7 +82,7 @@ const MyAccount: React.FC = () => {
       }
     ]
   })
-
+  // Fetch accounts and customers data from the API
   useEffect(() => {
     const fetchAccounts = async () => {
       try {
