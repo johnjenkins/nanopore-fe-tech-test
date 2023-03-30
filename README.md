@@ -57,6 +57,7 @@ This project uses the Gitflow branching strategy, with the following branches:
 - React
 - Styled-components
 - Storybook
+- Commitize
 - Jest
 - React Testing Library
 - Eslint
