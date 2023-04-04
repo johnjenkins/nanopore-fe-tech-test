@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "job_title": "Manager",
+    "email": "johndoe@example.com",
+    "start_date": "2022-01-01",
+    "account_roles": [
+      {
+        "id": 1,
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "role": "leader"
+      },
+      {
+        "id": 4,
+        "role": "admin"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "job_title": "Engineer",
+    "email": "janesmith@example.com",
+    "start_date": "2022-01-01",
+    "account_roles": [
+      {
+        "id": 2,
+        "role": "member"
+      },
+      {
+        "id": 6,
+        "role": "member"
+      },
+      {
+        "id": 7,
+        "role": "admin"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "Alice",
+    "last_name": "Lee",
+    "job_title": "Designer",
+    "email": "alicelee@example.com",
+    "start_date": "2022-02-01",
+    "account_roles": [
+      {
+        "id": 3,
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "role": "leader"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "first_name": "Bob",
+    "last_name": "Johnson",
+    "job_title": "Programmer",
+    "email": "bobjohnson@example.com",
+    "start_date": "2022-02-15",
+    "account_roles": [
+      {
+        "id": 5,
+        "role": "member"
+      },
+      {
+        "id": 6,
+        "role": "leader"
+      }
+    ]
+  }
+]
