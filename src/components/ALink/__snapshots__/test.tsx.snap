@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ALink /> should render the link with the given href 1`] = `
+.c0 {
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+<a
+  class="c0"
+  href="https://example.com"
+>
+  Click me
+</a>
+`;

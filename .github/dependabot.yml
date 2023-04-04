@@ -1,0 +1,22 @@
+# Dependabot configuration file for automatic dependency updates.
+
+# Use version 2 of the Dependabot configuration file format.
+version: 2
+
+# Define a set of updates to be performed by Dependabot.
+updates:
+  # Specify that the project uses npm as its package manager.
+  - package-ecosystem: npm
+
+    # Specify that Dependabot should look for updates in the root directory of the project.
+    directory: "/"
+
+    # Specify the update schedule for the package dependencies.
+    schedule:
+      # Check for updates on a weekly basis.
+      interval: weekly
+      # Check for updates on Sundays.
+      time: sunday
+
+    # Specify that Dependabot should not open more than 5 pull requests at a time.
+    open-pull-requests-limit: 5

@@ -1,0 +1,917 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyAccount component should check if all elements in accounts dropdown have values 1`] = `
+.c13 {
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.c14 {
+  background-color: transparent;
+  color: white;
+  border: 0.125rem solid #90c6e7;
+  border-radius: 0.25rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s,color 0.5s;
+  transition: background-color 0.25s,color 0.5s;
+}
+
+.c14:hover,
+.c14:focus {
+  background-color: #90c6e7;
+  color: #045a72;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.c9.active {
+  background: #e4f1f5;
+  font-weight: bold;
+}
+
+.c0 {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c1 {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c3 {
+  background: #005c76;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  text-align: left;
+}
+
+.c7 li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.c7 a {
+  font-size: 1.25rem;
+  color: #005c75;
+}
+
+.c7 hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.c7 h2 {
+  color: black;
+}
+
+.c8 {
+  width: calc(20% - 15px);
+}
+
+.c8 ul {
+  list-style-type: none;
+}
+
+.c11 {
+  margin-left: 20px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c4 {
+  padding: 10px;
+  min-height: 80px;
+  background: #ffffff;
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #1890b2;
+  font-weight: bold;
+}
+
+.c4 img {
+  border-radius: 100%;
+}
+
+.c4 .userDetails {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+}
+
+.c4 .userDetails div:nth-child(2) {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.c4 select {
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #89c5d7;
+  padding: 5px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+.c6 {
+  background: #045a72;
+  color: #7cb8d8;
+  font-weight: bold;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.c6 h2 {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c12 {
+  margin-top: 30px;
+}
+
+.c10 {
+  margin-right: 20px;
+}
+
+@media screen and (min-width:480px) {
+  .c0 {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c0 {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .c0 {
+    max-width: 1400px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Oxford nanopore Tech logo"
+          class="c2"
+          src="/img/ont-logo.svg"
+        />
+      </a>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <div>
+            <img
+              alt="User's Avatar"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F50%2F50&w=128&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F50%2F50&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F50%2F50&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="userDetails"
+          >
+            <div>
+              Jan Sargsyan
+            </div>
+            <div>
+              Select account below
+            </div>
+          </div>
+        </div>
+        <select
+          data-testid="account-select"
+          id="account-select"
+        >
+          <option
+            value=""
+          >
+            Select an account
+          </option>
+        </select>
+      </div>
+      <div
+        class="c6"
+      >
+        <h1>
+          Accounts
+        </h1>
+        <h2>
+          Select account below
+        </h2>
+      </div>
+    </div>
+    <div
+      class="c7"
+    >
+      <div
+        class="c8"
+      >
+        <ul>
+          <li>
+            <a
+              class="c9"
+              href="/"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-house c10"
+                color="#015872"
+                data-icon="house"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                  fill="currentColor"
+                />
+              </svg>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a
+              class="c9"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-list c10"
+                color="#015872"
+                data-icon="list"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z"
+                  fill="currentColor"
+                />
+              </svg>
+              Orders
+            </a>
+          </li>
+          <li>
+            <a
+              class="c9"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-folder c10"
+                color="#015872"
+                data-icon="folder"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z"
+                  fill="currentColor"
+                />
+              </svg>
+              Products
+            </a>
+          </li>
+        </ul>
+        <hr />
+        <ul>
+          <li>
+            <a
+              class="c9 active"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user c10"
+                color="#015872"
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Accounts
+            </a>
+          </li>
+          <li>
+            <a
+              class="c9"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bell c10"
+                color="#015872"
+                data-icon="bell"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"
+                  fill="currentColor"
+                />
+              </svg>
+              Notifications
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="c11"
+      >
+        <h2>
+          Select account from dropdown above
+        </h2>
+      </div>
+    </div>
+    <div
+      class="c12"
+    >
+      <a
+        class="c13"
+        href="/"
+      >
+        <button
+          class="c14"
+        >
+          Home
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MyAccount component should render without problems and match snapshot 1`] = `
+.c13 {
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.c14 {
+  background-color: transparent;
+  color: white;
+  border: 0.125rem solid #90c6e7;
+  border-radius: 0.25rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s,color 0.5s;
+  transition: background-color 0.25s,color 0.5s;
+}
+
+.c14:hover,
+.c14:focus {
+  background-color: #90c6e7;
+  color: #045a72;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.c9.active {
+  background: #e4f1f5;
+  font-weight: bold;
+}
+
+.c0 {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c1 {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c3 {
+  background: #005c76;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  text-align: left;
+}
+
+.c7 li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.c7 a {
+  font-size: 1.25rem;
+  color: #005c75;
+}
+
+.c7 hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.c7 h2 {
+  color: black;
+}
+
+.c8 {
+  width: calc(20% - 15px);
+}
+
+.c8 ul {
+  list-style-type: none;
+}
+
+.c11 {
+  margin-left: 20px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c4 {
+  padding: 10px;
+  min-height: 80px;
+  background: #ffffff;
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #1890b2;
+  font-weight: bold;
+}
+
+.c4 img {
+  border-radius: 100%;
+}
+
+.c4 .userDetails {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+}
+
+.c4 .userDetails div:nth-child(2) {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.c4 select {
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #89c5d7;
+  padding: 5px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+.c6 {
+  background: #045a72;
+  color: #7cb8d8;
+  font-weight: bold;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.c6 h2 {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c12 {
+  margin-top: 30px;
+}
+
+.c10 {
+  margin-right: 20px;
+}
+
+@media screen and (min-width:480px) {
+  .c0 {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c0 {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .c0 {
+    max-width: 1400px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Oxford nanopore Tech logo"
+          class="c2"
+          src="/img/ont-logo.svg"
+        />
+      </a>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <div>
+            <img
+              alt="User's Avatar"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F50%2F50&w=128&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F50%2F50&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F50%2F50&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="userDetails"
+          >
+            <div>
+              Jan Sargsyan
+            </div>
+            <div>
+              Select account below
+            </div>
+          </div>
+        </div>
+        <select
+          data-testid="account-select"
+          id="account-select"
+        >
+          <option
+            value=""
+          >
+            Select an account
+          </option>
+        </select>
+      </div>
+      <div
+        class="c6"
+      >
+        <h1>
+          Accounts
+        </h1>
+        <h2>
+          Select account below
+        </h2>
+      </div>
+    </div>
+    <div
+      class="c7"
+    >
+      <div
+        class="c8"
+      >
+        <ul>
+          <li>
+            <a
+              class="c9"
+              href="/"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-house c10"
+                color="#015872"
+                data-icon="house"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                  fill="currentColor"
+                />
+              </svg>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a
+              class="c9"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-list c10"
+                color="#015872"
+                data-icon="list"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z"
+                  fill="currentColor"
+                />
+              </svg>
+              Orders
+            </a>
+          </li>
+          <li>
+            <a
+              class="c9"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-folder c10"
+                color="#015872"
+                data-icon="folder"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z"
+                  fill="currentColor"
+                />
+              </svg>
+              Products
+            </a>
+          </li>
+        </ul>
+        <hr />
+        <ul>
+          <li>
+            <a
+              class="c9 active"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user c10"
+                color="#015872"
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Accounts
+            </a>
+          </li>
+          <li>
+            <a
+              class="c9"
+              href="#0"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bell c10"
+                color="#015872"
+                data-icon="bell"
+                data-prefix="fas"
+                focusable="false"
+                height="18"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"
+                  fill="currentColor"
+                />
+              </svg>
+              Notifications
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="c11"
+      >
+        <h2>
+          Select account from dropdown above
+        </h2>
+      </div>
+    </div>
+    <div
+      class="c12"
+    >
+      <a
+        class="c13"
+        href="/"
+      >
+        <button
+          class="c14"
+        >
+          Home
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;

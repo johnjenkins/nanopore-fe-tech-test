@@ -1,0 +1,15 @@
+{
+  "name": "An Oxford Nanopore Frontend Technical Test",
+  "description": "As part of our application process, we'd like you to demonstrate your talents with a small assignment. The task is useful for us to get an idea of your problem solving, organisation, eye-for-detail and overall thought processes. Please do not spend more than a few hours on it - we do not expect candidates to 'finish'; just get as far as you can.",
+  "theme_color": "#3c8aa6",
+  "display": "fullscreen",
+  "start_url": "/",
+  "public_url": "http://localhost:3000/",
+  "thumbnail": "/img/thumbnail.png",
+  "icons": [
+    {
+      "src": "/img/favicon.ico",
+      "sizes": "72x72 96x96 128x128 256x256"
+    }
+  ]
+}
