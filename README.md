@@ -2,9 +2,10 @@
 
 As part of our application process, we'd like you to demonstrate your talents with a small assignment. 
 The task is useful for us to get an idea of your problem solving, organisation, eye-for-detail and overall thought processes. 
+
 Please do not spend more than a few hours on it - we do not expect candidates to 'finish'; 
-get as far as you like - enough to show us some of your talents - then, within the interview, 
-we'll can talk through the work you've done and perhaps work somemore on it together. 
+get as far as you like - enough to show us some of your talents - then within the interview, 
+we'll talk through the work you've done and perhaps work some-more on it together. 
 
 Please fork this project then, when ready, please make a pull request.
 
