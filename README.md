@@ -18,7 +18,7 @@ The portal's backend is a collection of microservices built at various times wit
 
 The chosen technology stack is up to you, but you should be able to justify your decisions.
 
-If you would like me to make a decision for you - just ask and I will scaffold something up in a separate repo.
+If you would like me to make a decision for you - just ask and I will scaffold something in a separate repo.
 
 ## The first feature
 
