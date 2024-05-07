@@ -7,7 +7,7 @@ Please do not spend more than a few hours on it - we do not expect candidates to
 get as far as you like - enough to show us some of your talents - then within the interview, 
 we'll talk through the work you've done and perhaps work some-more on it together. 
 
-Please fork this project then, when ready, please make a pull request.
+Please fork this project then when ready, send us (or your recruiter) a link to your forked repo for our review.
 
 ## The application
 
